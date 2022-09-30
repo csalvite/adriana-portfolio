@@ -1,0 +1,53 @@
+section#sectionHead {
+  background-color: var(--myWhite);
+  color: var(--myBlack);
+  height: 85vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+section#sectionHead img {
+  height: 90%;
+}
+
+div.presentation {
+  padding: 2rem 0;
+  width: 40vw;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+div.presentation > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+div.presentation > p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+div.presentation > button {
+  width: 25%;
+  padding: 1rem 0.5rem;
+  color: var(--myBlack);
+  border: 1px solid var(--myTeal);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+div.presentation > button:hover {
+  color: var(--myBlack);
+  background-color: var(--myTeal);
+}

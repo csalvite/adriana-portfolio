@@ -1,0 +1,46 @@
+header#header2 {
+  color: var(--myWhite);
+  background-color: var(--myBlack);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+header#header2 h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+nav > menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header#header2 li {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Hover Style for all li except the last one */
+header#header2 li:not(:last-child):hover {
+  border-bottom: 1px solid var(--myWhite);
+  padding-bottom: calc(1rem - 1px);
+}
+
+header#header2 li:last-child {
+  margin-left: 1.2rem;
+  border: 1px solid var(--myWhite);
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 500ms;
+}
+
+header#header2 li:last-child:hover {
+  color: var(--myBlack);
+  background-color: var(--myWhite);
+}
